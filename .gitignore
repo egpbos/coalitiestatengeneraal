@@ -10,3 +10,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# voici / jupyter lite artifacts
+.jupyterlite.doit.db
+_output/
