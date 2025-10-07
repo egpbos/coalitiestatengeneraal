@@ -6,9 +6,9 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "ipywidgets>=8.1.7",
+    "jupyterlite-pyodide-kernel>=0.5.2",
     "parliamentarch>=1.1.2",
-    "voici>=0.8.0",
-    "voila>=0.5.11",
+    "voici-core>=0.8.0",
 ]
 
 [dependency-groups]
