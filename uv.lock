@@ -256,7 +256,7 @@ requires-dist = [
     { name = "ipywidgets", specifier = ">=8.1.7" },
     { name = "jupyterlite-pyodide-kernel", specifier = ">=0.5.2" },
     { name = "parliamentarch", specifier = ">=1.1.2" },
-    { name = "voici-core", specifier = ">=0.8.0" },
+    { name = "voici-core", specifier = ">=0.9" },
 ]
 
 [package.metadata.requires-dev]
@@ -672,28 +672,28 @@ wheels = [
 
 [[package]]
 name = "jupyterlite-core"
-version = "0.5.1"
+version = "0.6.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "doit" },
     { name = "jupyter-core" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3f/82/7c2e6e186f32dce940dc47ca4e0fffe5ec3af467f7244a1078fc0d755e24/jupyterlite_core-0.5.1.tar.gz", hash = "sha256:c6eebc93b914b33d57ce5838cc1db197500ab8d6360fce9b163920011936c8e1", size = 14787228, upload-time = "2025-01-29T08:41:39.23Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/1a/32/e1b4a19716b3a0438be8e07607058e1f9b12e5b6a9cb679eeedd85ea1ca3/jupyterlite_core-0.6.4.tar.gz", hash = "sha256:a753c3d83a1f4112d8f04f6e103945c3f6d746ae27d2293af74fb862851e91e3", size = 15987048, upload-time = "2025-08-08T07:16:41.556Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/46/15/1d9160819d1e6e018d15de0e98b9297d0a09cfcfdc73add6e24ee3b2b83c/jupyterlite_core-0.5.1-py3-none-any.whl", hash = "sha256:76381619a632f06bf67fb47e5464af762ad8836df5ffe3d7e7ee0e316c1407ee", size = 14799350, upload-time = "2025-01-29T08:41:34.42Z" },
+    { url = "https://files.pythonhosted.org/packages/8d/25/003881b07217e270fc71083185e4e48bf48c41b4f398f9d24e7d727f6e64/jupyterlite_core-0.6.4-py3-none-any.whl", hash = "sha256:0e20c1e32a26a6ca7d80df2094d69acfcb58b54c109c66865bbe8513c3502c01", size = 15999714, upload-time = "2025-08-08T07:16:38.5Z" },
 ]
 
 [[package]]
 name = "jupyterlite-pyodide-kernel"
-version = "0.5.2"
+version = "0.6.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jupyterlite-core" },
     { name = "pkginfo" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/35/62/86ff7bf536e034686bfe90e7c0d05087b6989c3821f97ed45d04947ba4c2/jupyterlite_pyodide_kernel-0.5.2.tar.gz", hash = "sha256:c6c2c1bb685fb0a076cbf81cd2460cd9acfd764f91325a67194f79c49f9546a2", size = 529767, upload-time = "2025-01-17T17:41:41.642Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e8/20/0b54b71d1343df78bd8733ce82178614af7a4fd41fd2295f22e7c7c1498a/jupyterlite_pyodide_kernel-0.6.1.tar.gz", hash = "sha256:161714b3db78050064f8e9b6e542b368ba60a098f6a92a4a50abde403b5fb8c3", size = 886693, upload-time = "2025-06-05T10:12:10.669Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/1b/b5/959a03ca011d1031abac03c18af9e767c18d6a9beb443eb106dda609748c/jupyterlite_pyodide_kernel-0.5.2-py3-none-any.whl", hash = "sha256:63ba6ce28d32f2cd19f636c40c153e171369a24189e11e2235457bd7000c5907", size = 546048, upload-time = "2025-01-17T17:41:39.371Z" },
+    { url = "https://files.pythonhosted.org/packages/92/a4/bf3270357175d410d98edd00e42c1826cb26e33742c1ee5421d00d4cf97d/jupyterlite_pyodide_kernel-0.6.1-py3-none-any.whl", hash = "sha256:d16f2e44dedd60d7a5578cd901a4de1ac34d30c80671abba7ec1ac70a65e2972", size = 904486, upload-time = "2025-06-05T10:12:08.385Z" },
 ]
 
 [[package]]
@@ -1375,15 +1375,15 @@ wheels = [
 
 [[package]]
 name = "voici-core"
-version = "0.8.0"
+version = "0.9.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jupyterlite-core" },
     { name = "voila" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/01/3c/224fe8729795d39d79f8e287edf48f3c1efdab872dc402200b2f20090c35/voici_core-0.8.0.tar.gz", hash = "sha256:50d0748d60b3c51e6508c5a02a2f6bd43db66370bf564cb6c5a3e6cf949c4734", size = 2700250, upload-time = "2025-01-09T11:46:36.877Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/92/e6/f9871572aa0decd3f519e0aea23cec11cfa1baf0ed8f3dcdf0999d8f02d2/voici_core-0.9.0.tar.gz", hash = "sha256:922299ef90e900fec6339e4ad0086ac4428c86e1d30c8265275e990bd37b8b83", size = 2697568, upload-time = "2025-10-07T14:17:17.656Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/92/e7/e07eea29c77853b95471baed20215911236285c9eba38343a6fa511d796c/voici_core-0.8.0-py3-none-any.whl", hash = "sha256:cfdf15cbd6a5abbf8ad5ca11c6ef70f5dc284582e56a33084fcf4055817e2000", size = 2557141, upload-time = "2025-01-09T11:46:33.575Z" },
+    { url = "https://files.pythonhosted.org/packages/06/a9/33e062cd0a2fbef66d0c69b084ed33bba659450fd7d1a99e004c494f1162/voici_core-0.9.0-py3-none-any.whl", hash = "sha256:44d38f2ed92ce5c856fdf1de2b6dc91a927f095a2cff8e2030032daa06676030", size = 2589050, upload-time = "2025-10-07T14:17:15.74Z" },
 ]
 
 [[package]]
