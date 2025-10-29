@@ -1,2 +1,9 @@
-name: my-dashboard-env
-
+name: app
+channels:
+  - https://repo.prefix.dev/emscripten-forge-dev
+  - conda-forge
+dependencies:
+  - xeus-python
+  - ipywidgets
+  - pip:
+    - parliamentarch
