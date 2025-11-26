@@ -3,7 +3,7 @@ channels:
   - https://repo.mamba.pm/emscripten-forge
   - conda-forge
 dependencies:
-  - jupyterlite-pyodide-kernel>=0.5.2
+  - xeus-python
+  - ipywidgets>=8.1.7
   - pip:
     - parliamentarch>=1.1.2
-    - ipywidgets>=8.1.7
